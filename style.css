@@ -1,0 +1,141 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background: #191e30;
+}
+
+main{
+    padding: 20px;
+}
+
+.header{
+    text-align: center;
+}
+
+Span{
+    font-size: 6rem;
+    color: rgb(205, 7, 103);
+}
+
+h1{
+    font-size: 2.6rem;
+    letter-spacing:.3rem;
+    color: rgb(11, 124, 204);
+    border-bottom: .1rem solid #ff0077;
+    font-weight: 600;
+}
+
+section p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ff0077;
+    margin: 2rem 0;
+}
+
+section{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h2{
+    font-size: 1.6rem;
+    color: rgb(11, 124, 204);
+    letter-spacing: .1rem;
+    margin: 0 0 1.6rem;
+}
+
+.inputs{
+    margin: 0 0 2rem;
+}
+
+input{
+    margin: 0 .4rem;
+    border-radius: .4rem;
+    border: none;
+    background: rgb(247, 1, 100);
+    color: #fff;
+    text-align: center;
+    width: 8rem;
+    height: 1.6rem;
+    font-weight: 600;
+
+}
+
+::placeholder{
+    color: #fff;
+    text-align: center;
+}
+
+input:focus{
+    background: #212157;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btns{
+    background: #ff0077;
+    border: none;
+    border-radius: 2rem;
+    width: 6rem;
+    height: 2.4rem;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px #fff;
+    cursor: pointer;
+}
+
+.btns:hover{
+    color: #ff0077;
+    background: #ffffff;
+    transition: all .4s ease-in-out;
+}
+
+.btns:active{
+    background: #ff0077;
+    color: #fff;
+    transition: none;
+}
+
+
+@media (max-width: 1200px){
+    html{
+        font-size: 1.6rem;
+    }
+
+    input:focus{
+        font-size: .9rem;
+    }
+
+    input{
+        font-size: .9rem;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+    }
+
+    .btns{
+        font-size: 1rem;
+
+    }
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 1.4rem;
+    }
+
+    input{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500&display=swap"rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dan Sorteio</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <span><i class='bx bxs-dice-5'></i></span>
+            <h1><i class='bx bxs-dice-5'></i>Dan Sorteio</h1>
+        </div>
+
+        <section>
+            <h2>Sortear um número</h2>
+            <p id="result"></p>
+            <form>
+                <div class="inputs">
+                    <input class="input-min" placeholder="Entre" type="number">
+                    <input class="input-max" placeholder="E" type="number">
+                </div>
+            </form>
+
+            <div class="btn">
+                <button onclick="generateNumber()" class="btns">Sortear</button>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+<script src="./scripts.js"></script>
+</html>
