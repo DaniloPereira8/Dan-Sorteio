@@ -19,12 +19,12 @@ main{
 }
 
 Span{
-    font-size: 6rem;
+    font-size: 10rem;
     color: rgb(205, 7, 103);
 }
 
 h1{
-    font-size: 2.6rem;
+    font-size: 3.4rem;
     letter-spacing:.3rem;
     color: rgb(11, 124, 204);
     border-bottom: .1rem solid #ff0077;
@@ -40,11 +40,11 @@ section p{
 
 section{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 3.2rem;
 }
 
 h2{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: rgb(11, 124, 204);
     letter-spacing: .1rem;
     margin: 0 0 1.6rem;
@@ -61,8 +61,8 @@ input{
     background: rgb(247, 1, 100);
     color: #fff;
     text-align: center;
-    width: 8rem;
-    height: 1.6rem;
+    width: 9rem;
+    height: 2.8rem;
     font-weight: 600;
 
 }
@@ -82,8 +82,8 @@ input:focus{
     background: #ff0077;
     border: none;
     border-radius: 2rem;
-    width: 6rem;
-    height: 2.4rem;
+    width: 9rem;
+    height: 2.6rem;
     color: #fff;
     font-weight: 500;
     box-shadow: 0px 0px 5px #fff;
@@ -105,7 +105,7 @@ input:focus{
 
 @media (max-width: 1200px){
     html{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     input:focus{
@@ -127,7 +127,7 @@ input:focus{
 
 @media (max-width: 500px){
     html{
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     input{
